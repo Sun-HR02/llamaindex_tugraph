@@ -1,0 +1,50 @@
+{"id": "VAL-1", "output_field": "三个级别（0，1，2）。"}
+{"id": "VAL-2", "output_field": "大于10000时会触发危急颜色模式。"}
+{"id": "VAL-3", "output_field": "判断数据是否为实数类型。"}
+{"id": "VAL-4", "output_field": "200"}
+{"id": "VAL-5", "output_field": "不是。边关联的两个点的字段并不一定是点的主键字段，只是为了识别而设定的占位字段。"}
+{"id": "VAL-6", "output_field": "删除边类型及其所有边数据。"}
+{"id": "VAL-7", "output_field": "通过相关文档可以查找TuGraph-DB的日志等级调整方法。"}
+{"id": "VAL-8", "output_field": "“memory”指的是服务器的内存状态，包括图数据库应用程序的内存使用量、服务器可用内存和服务器总内存。"}
+{"id": "VAL-9", "output_field": "导入的数据会追加至画布区域。"}
+{"id": "VAL-10", "output_field": "通过邮件与我们联系，具体联系方式请查阅相关的联系方式页面。"}
+{"id": "VAL-11", "output_field": "是的，边索引支持查询加速。"}
+{"id": "VAL-12", "output_field": "TuGraph Monitor 的主要功能是监控和管理 TuGraph 数据库的运行状态、性能指标和资源使用情况。"}
+{"id": "VAL-13", "output_field": "`lgraph_peer`工具"}
+{"id": "VAL-14", "output_field": "在POST请求中，将`refresh_time`和`expire_time`参数都设置为0，即可将Token的有效期修改为无限期。请求示例如下：\n\n```json\n{\n    \"Authorization\" : \"Bearer <your_token>\",\n    \"refresh_time\": 0,\n    \"expire_time\": 0\n}\n```"}
+{"id": "VAL-15", "output_field": "蚂蚁集团与清华大学。"}
+{"id": "VAL-16", "output_field": "TuGraph图学习模块依赖于编译环境（如gcc、python、java等编译器）和运行环境（如gcc、boost、cmake等）。"}
+{"id": "VAL-17", "output_field": "构造FieldSpec时需要的参数包括 graph 和 schema。"}
+{"id": "VAL-18", "output_field": "数据竞争导致的并发问题。"}
+{"id": "VAL-19", "output_field": "需要三个参数：服务器地址（url）、用户名（user）和密码（password）。"}
+{"id": "VAL-20", "output_field": "TuGraph-DB查询引擎目前支持使用Cypher查询语言，计划在未来可能支持其他查询语言。"}
+{"id": "VAL-21", "output_field": "DeleteProcedure 函数接受以下类型的参数：\n1. std::string& result（输出参数）\n2. const std::string& procedure_type（输入参数，类型为CPP或PY）\n3. const std::string& procedure_name（输入参数）\n4. const std::string& graph（可选输入参数，默认为\"default\"）"}
+{"id": "VAL-22", "output_field": "必须选用并行模式（TRAVERSAL_PARALLEL）。"}
+{"id": "VAL-23", "output_field": "RpcSingleClient 构造函数需要三个参数：url、user 和 password。"}
+{"id": "VAL-24", "output_field": "未提供相关信息，无法回答。"}
+{"id": "VAL-25", "output_field": "具体的四种采样算子未在提供的信息中列出。"}
+{"id": "VAL-26", "output_field": "根据提供的参数是否存在于现有边，返回值将是更新后的边属性或新增的边信息。"}
+{"id": "VAL-27", "output_field": "Antlr4 支持生成 Java、Python、C++、JavaScript、Go 等 10 种目标语言的解析器。"}
+{"id": "VAL-28", "output_field": "将会抛出异常。"}
+{"id": "VAL-29", "output_field": "VertexLockGuard 是用于对点进行加锁的工具，在对特定点进行操作时自动加锁，并在退出作用域时自动释放锁。"}
+{"id": "VAL-30", "output_field": "标记这个schema的field是否为空，如果一个schema的field为空，并且插入的数据里对应的列是空的，在packed的时候就不占内存。"}
+{"id": "VAL-31", "output_field": "边属性匹配功能正在开发中，因此当前版本可能不支持通过Cypher过滤边属性。"}
+{"id": "VAL-32", "output_field": "通过创建标签来定义点类型和边类型。每个点和边有且仅有一个标签，创建标签后，修改属性数量及类型会产生代价。"}
+{"id": "VAL-33", "output_field": "是的，如果log_dir不设置，则所有日志会输出到控制台，日志文件不会生成。"}
+{"id": "VAL-34", "output_field": "在实际应用中，可以使用如下示例查询最短路径：\n\n```\nMATCH (n1 {name:'Hugo Weaving'}),(n2 {title:'The Matrix'})\nCALL algo.shortestPath(n1,n2) YIELD nodeCount,totalCost RETURN nodeCount,totalCost\n```"}
+{"id": "VAL-35", "output_field": "字典类型，包含列名和列定义。"}
+{"id": "VAL-36", "output_field": "v1版本"}
+{"id": "VAL-37", "output_field": "gtest框架"}
+{"id": "VAL-38", "output_field": "需要指定该 Label 是否为点（vertex）或边（relationship）。"}
+{"id": "VAL-39", "output_field": "对Graph中节点编号介于lower和upper之间的节点执行的批处理操作，以及对active_vertices中对应为1的节点执行的批处理操作。"}
+{"id": "VAL-40", "output_field": "可以通过在代码中添加日志输出语句来增加日志输出埋点，具体的方法包括使用相应的日志框架并配置日志级别及格式。"}
+{"id": "VAL-41", "output_field": "会抛出`LabelNotFoundException`或`FieldNotFoundException`异常。"}
+{"id": "VAL-42", "output_field": "Grafana主要用于从多个数据源中获取数据，并将时序数据库中的数据转换为精美图形和可视化效果。"}
+{"id": "VAL-43", "output_field": "DeleteProcedure 函数用于删除存储过程。"}
+{"id": "VAL-44", "output_field": "PairUniqueIndex 的钥匙生成形式是在用户指定的 key 后面加上源点和目标点的 vid，每个 vid 为 5bytes 长度。"}
+{"id": "VAL-45", "output_field": "类FieldData用于表示BOOL、INT8、INT16、INT32、INT64、DATE、DATETIME、FLOAT、DOUBLE、STRING、BLOB、POINT、LINESTRING、POLYGON和FLOAT_VECTOR等多种数据类型。"}
+{"id": "VAL-46", "output_field": "导入将在第一个错误包处停止，并打印出已导入的包数。"}
+{"id": "VAL-47", "output_field": "`ORDER BY`在GQL中用于对`RETURN`的结果进行排序。"}
+{"id": "VAL-48", "output_field": "是的，TuGraph-DB支持RESTful API接口。相关的接口代码可以在TuGraph的文档和开发指南中找到。"}
+{"id": "VAL-49", "output_field": "lgraph_peer工具在HA集群启动后可用，与编译方式无关。"}
+{"id": "VAL-50", "output_field": "25%"}

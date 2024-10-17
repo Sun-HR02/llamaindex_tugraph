@@ -1,0 +1,6 @@
+python == 3.9
+llama_index
+langchain
+llama-index-llms-openai
+tqdm
+llama-index-readers-github
